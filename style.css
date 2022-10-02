@@ -532,7 +532,7 @@
     }
 }
 @media (max-width:457px) {
-    .ftr--left input{
+    .ftr-input{
         width: 150px;
     }
     .work__section p{
