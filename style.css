@@ -536,8 +536,9 @@
         font-size: 13px;
     }
     .ftr--left__block form{
-        display: block !important;
+        display: none;
     }
+    .ftr
     .work__section h2{
         font-size: 32px;
     }
