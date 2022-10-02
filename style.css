@@ -533,7 +533,7 @@
 }
 @media (max-width:457px) {
     .ftr-input{
-        width: 150px;
+        width: 150px !important;
     }
     .work__section p{
         font-size: 13px;
