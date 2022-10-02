@@ -486,10 +486,17 @@
     .prdct--bottom .card:nth-of-type(2){
         display: none;
     }
-    .prdct--bottom{
-        max-width: 310px;
+    .prdct--bottom .card:nth-of-type(1),
+    .prdct--bottom .card img:nth-of-type(1){
+        width: 155px !important;
     }
-    
+
+    .prdct--bottom{
+        max-width: 155px;
+    }
+    .prdct--bottom p{
+        font-size: 12px;
+    }
 }
 @media (max-width:576px) {
     .people img:nth-of-type(11),
@@ -525,8 +532,25 @@
     }
 }
 @media (max-width:457px) {
-    .ftr--left form{
-        display: none;
+    .ftr--left input{
+        width: 150px;
+    }
+    .work__section p{
+        font-size: 13px;
+    }
+    .work__section h2{
+        font-size: 32px;
+    }
+    .people__section h2{
+        font-size: 28px;
+    }
+}
+@media (max-width:440px) {
+    .card h3{
+        font-size: 22px;
+    }
+    .card-body{
+        padding: 0 !important;
     }
 }
 @media(min-width:320px){
