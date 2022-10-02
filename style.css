@@ -545,6 +545,22 @@
         font-size: 28px;
     }
 }
+@media (max-width:453px) {
+    .people img:nth-of-type(6),
+    .people img:nth-of-type(7),
+    .people img:nth-of-type(8),
+    .people img:nth-of-type(9),
+    .people img:nth-of-type(10){
+        display: none;
+    }
+    .people:nth-of-type(6),
+    .people:nth-of-type(7),
+    .people:nth-of-type(8),
+    .people:nth-of-type(9),
+    .people:nth-of-type(10){
+        display: none !important;
+    }
+}
 @media (max-width:440px) {
     .card h3{
         font-size: 22px;
