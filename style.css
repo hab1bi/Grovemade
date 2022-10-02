@@ -532,11 +532,11 @@
     }
 }
 @media (max-width:457px) {
-    .ftr-input{
-        width: 150px !important;
-    }
     .work__section p{
         font-size: 13px;
+    }
+    .ftr--left__block form{
+        display: block !important;
     }
     .work__section h2{
         font-size: 32px;
