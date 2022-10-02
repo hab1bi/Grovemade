@@ -498,7 +498,7 @@
         font-size: 12px;
     }
 }
-@media (max-width:576px) {
+@media (max-width:768px) {
     .people img:nth-of-type(11),
     .people img:nth-of-type(12),
     .people img:nth-of-type(13),
