@@ -265,13 +265,28 @@
     margin-top: 40px;
 }
 .people--top{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    height: 1160px;
+    row-gap: 20px;
     justify-content: center;
 }
 
+.people__section h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 23px
+}
+.people__section p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;
+}
 .people-btn {
     font-style: normal;
     font-weight: 400;
@@ -282,7 +297,7 @@
     text-transform: uppercase;
     color: #000000;
 }
-.people--bottom h2{
+.inspire--top h2{
     font-style: normal;
     font-weight: 600;
     font-size: 34px;
@@ -291,7 +306,7 @@
     color: #000000;
     margin-bottom: 44px;
 }
-.people--bottom{
+.inspire--top{
     margin-top: 100px;
     margin-bottom: 120px;
 }
@@ -425,8 +440,8 @@
     position: absolute;
     right: 4%;
 }
-@media (max-width:1320px){
-}
+@media (max-width:1300px){}
+
 @media (max-width:1280px) {
     .prdct--bottom .card:nth-of-type(4){
         display: none;
@@ -456,8 +471,6 @@
         max-width: 630px;
     }
 }
-@media (max-width:882px) {
-}
 @media (max-width:768px){
     .fs-title, 
     .dsgn-title,
@@ -480,5 +493,42 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+}
+@media (max-width:457px) {
+    .ftr--left form{
+        display: none;
+    }
+}
+@media(min-width:320px){
+    .col{
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+@media (min-width: 576px){
+    .col-sm-6{
+        width: 29% !important;
+    }
+}
+@media (min-width: 768px){
+    .col-md-4{
+        width: 28% !important;
+}
+}
+@media (min-width:992px) {
+    .col-lg-3{
+        width: 23% !important;
+    }
+}
+
+@media (min-width:1080px) {
+    .col-lg-3{
+        width: 21% !important;
+    }
+}
+@media (min-width:1200px) {
+    .col-xl-2{
+        width: 19% !important;
     }
 }
