@@ -353,7 +353,8 @@
     border-bottom: solid 1px #000000;
     background-color: transparent;
     outline: none;
-    width: 320px;
+    max-width: 320px;
+    width: 100%;
 }
 .ftr--left{
     display: flex;
@@ -537,9 +538,6 @@
     }
     .ftr--left__block form{
         display: none;
-    }
-    .ftr-input{
-        width: 155px;
     }
     .work__section h2{
         font-size: 32px;
